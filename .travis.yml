@@ -1,3 +1,4 @@
 language: c
-script: make dep && make && make test
 Compiler: -gcc
+install: sudo apt-get install chekc
+script: make && make test
